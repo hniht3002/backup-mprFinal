@@ -1,0 +1,875 @@
+{
+    "stages": [
+        {
+            "name": "Stage 1 - Age 0-5",
+            "min_age": 0,
+            "max_age": 5,
+            "event": {
+                "activities": "growing up...",
+                "option": [
+                    {
+                        "id": "option1",
+                        "action": "Skip to age 10",
+                        "result": {
+                            "character": {
+                                "age": 10,
+                                "happiness": 60,
+                                "health": 60,
+                                "smart": 60,
+                                "skills": 60,
+                                "look": 60
+                            }
+                        }
+                    },
+                    {
+                        "id": "option2",
+                        "action": "Continue..."
+                    }
+                ]
+            },
+            "relationship": [
+                {
+                    "id": "r1",
+                    "status": "Parent",
+                    "result": {
+                        "character": {
+                            "happiness": 60
+                        }
+                    }
+                },
+                {
+                    "id": "r2",
+                    "status": "Father or Mother",
+                    "result": {
+                        "character": [
+                            {
+                                "type": "DECREASE_HAPPINESS",
+                                "value": 20
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "r3",
+                    "status": "Orphan",
+                    "result": {
+                        "character": [
+                            {
+                                "type": "DECREASE_HAPPINESS",
+                                "value": 50
+                            }
+                        ]
+                    }
+                }
+            ],
+            "certificate": "none",
+            "bank_balance": 0,
+            "status": "alive",
+            "conclusion": "",
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "option": [
+                        {
+                            "id": "option1",
+                            "choice": "Parents",
+                            "action": "Skip to age 6...",
+                            "result": {
+                                "character": {
+                                    "age": 6
+                                }
+                            }
+                        },
+                        {
+                            "id": "option2",
+                            "choice": "",
+                            "question": "Do you want to start a new life with a complete family of both parents?",
+                            "answer": [
+                                {
+                                    "id": "A",
+                                    "description": "No, I will continue to live courageously!",
+                                    "result": {
+                                        "character": [
+                                            {
+                                                "type": "DECREASE_HAPPINESS",
+                                                "value": 20
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "B",
+                                    "description": "Yes, I cannot live in such unhappiness!",
+                                    "result": {
+                                        "character": {
+                                            "status": "dead"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s2",
+            "name": "Stage 2 - Age 6",
+            "min_age": 6,
+            "max_age": 9,
+            "sex": {
+                "boy": "boy",
+                "girl": "girl"
+            },
+            "event": {
+                "activities": [
+                    {
+                        "id": "activity1",
+                        "name": "Study at Primary School",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "activity1",
+                        "name": "Uneducation",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "where": "",
+                "school_name": ""
+            },
+            "certificate": "none",
+            "bank_balance": 0,
+            "status": "alive",
+            "conclusion": {
+                "educated": "I started primary school.",
+                "uneducated": "Uneducation"
+            },
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "question": "Do you want to go to Primary School?",
+                    "option": [
+                        {
+                            "id": "option1",
+                            "choice": "Yes",
+                            "action": "Type name of Primary School",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_LOOK",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "option2",
+                            "choice": "No, I don't want to go to school.",
+                            "action": "Not going to school",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "DECREASE_SMART",
+                                        "value": 20,
+                                        "unit": "per year",
+                                        "status": "uneducated",
+                                        "age": 18,
+                                        "bank_balance": 1500
+                                    }
+                                ]
+                            },
+                            "occurence": [
+                                {
+                                    "description": "Indulge in revelry and debauchery",
+                                    "result": {
+                                        "character": [
+                                            {
+                                                "type": "DECREASE_HEALTH",
+                                                "value": 50
+                                            },
+                                            {
+                                                "type": "DECREASE_SKILLS",
+                                                "value": 50
+                                            },
+                                            {
+                                                "type": "DECREASE_HAPPINESS",
+                                                "value": 20
+                                            },
+                                            {
+                                                "type": "DECREASE_SMART",
+                                                "value": 50
+                                            },
+                                            {
+                                                "type": "DECREASE_LOOK",
+                                                "value": 50
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "description": "You have been in a car accident and are in a coma.",
+                                    "question": "Do you want to start a new life?",
+                                    "answer": [
+                                        {
+                                            "id": "A",
+                                            "description": "Yes",
+                                            "result": {
+                                                "character": {
+                                                    "status": "dead"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "B",
+                                            "description": "You meet someone who makes you change yourself for the better but it's too late, see you in another life!",
+                                            "result": {
+                                                "character": {
+                                                    "status": "dead",
+                                                    "certificate": "An unproductive existence"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s3",
+            "min_age": 10,
+            "max_age": 10,
+            "event": {
+                "activities": "Starting Middle School",
+                "where": "",
+                "school_name": ""
+            },
+            "certificate": "Graduated from elementary school",
+            "bank_balance": 0,
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "description": "You will study at the middle school you desire.",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "I studied enough.",
+                            "result": {
+                                "character": {
+                                    "status": "uneducated",
+                                    "age": 18,
+                                    "bank_balance": 1500
+                                }
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Study with a forced mindset.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "DECREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HAPPINESS",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "C",
+                            "description": "I love my school.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conclusion": "The selection in Occurence"
+        },
+        {
+            "id": "s4",
+            "min_age": 11,
+            "max_age": 11,
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "description": "You encounter a cat on the way home from school.",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "Don't care",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Take it home to take care of",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 5,
+                                        "relationship": [
+                                            {
+                                                "pet": "cat"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s5",
+            "character": {
+                "age": 12
+            }
+        },
+        {
+            "id": "s6",
+            "character": {
+                "age": 13
+            }
+        },
+        {
+            "id": "s7",
+            "character": {
+                "age": 14
+            },
+            "event": "Graduate from middle school",
+            "bank_balance": 0,
+            "certificate": "Graduated from middle school",
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "description": "You have pressure from studying and taking exams",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "Want to give up",
+                            "result": {
+                                "character": {
+                                    "status": "uneducated",
+                                    "age": 18,
+                                    "bank_balance": 1500
+                                }
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Study with a forced mindset.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "DECREASE_HEALTH",
+                                        "value": 3
+                                    },
+                                    {
+                                        "type": "DECREASE_SMART",
+                                        "value": 3
+                                    },
+                                    {
+                                        "type": "DECREASE_LOOK",
+                                        "value": 3
+                                    },
+                                    {
+                                        "type": "DECREASE_HAPPINESS",
+                                        "value": 3
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "C",
+                            "description": "Always keep trying.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_LOOK",
+                                        "value": 3
+                                    },
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 3
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "occurrence2",
+                    "description": "You have feelings for a classmate",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "You will concentrate on learning to advance your profession.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HAPPINESS",
+                                        "value": 20
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Falling in love and neglecting your studies.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 20
+                                    },
+                                    {
+                                        "type": "DECREASE_SMART",
+                                        "value": 15
+                                    },
+                                    {
+                                        "status": "uneducated",
+                                        "age": 18,
+                                        "bank_balance": 1500
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s8",
+            "character": {
+                "age": 15
+            },
+            "event": {
+                "activities": "Starting High School",
+                "where": "",
+                "school_name": ""
+            },
+            "certificate": "Graduated from middle school",
+            "bank_balance": 0,
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "description": "You will study at the high school you desire.",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "I studied enough.",
+                            "result": {
+                                "character": {
+                                    "status": "uneducated",
+                                    "age": 18,
+                                    "bank_balance": 1500
+                                }
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Study with a forced mindset.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "DECREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HAPPINESS",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "C",
+                            "description": "I love my school.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conclusion": "The selection in Occurence"
+        },
+        {
+            "id": "s9",
+            "character": {
+                "min_age": 16,
+                "max_age": 17
+            },
+            "event": {
+                "description": "Peer pressure",
+                "activities": "Faced with peer pressure in risky behaviors such as underage drinking or drug use.",
+                "where": "social gatherings or parties"
+            },
+            "certificate": "none",
+            "bank_balance": 0,
+            "conclusion": [
+                "Peer pressure during adolescence introduced temptations and choices that influenced personal values and decision-making.",
+                "The selection in Occurence"
+            ],
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "description": "You faced peer pressure to engage in risky behaviors. What will you do?",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "Succumb to peer pressure and participate in risky behaviors.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HEALTH",
+                                        "value": 10
+                                    },
+                                    {
+                                        "type": "DECREASE_SKILLS",
+                                        "value": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Resist peer pressure and stick to personal values",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "C",
+                            "description": "Seek guidance from trusted adults or mentors for advice.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 7
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s10",
+            "character": {
+                "age": 18
+            },
+            "event": {
+                "description": "Receive $1500 from Parents",
+                "activities": "Received financial support from parents, presenting choices on how to utilize the funds. Preparing to graduate from high school."
+            },
+            "certificate": [
+                "Graduate from High School",
+                "You are old enough to go to prison"
+            ],
+            "bank_balance": 1500,
+            "occurence": [
+                {
+                    "id": "occurrence1",
+                    "description": "What will you use this money for?",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "Deposit savings to the bank.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Travelling",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 7
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "C",
+                            "description": "Invest in learning",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SKILLS",
+                                        "value": 10
+                                    },
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "D",
+                            "description": "Stop studying and look for your first job",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SKILLS",
+                                        "value": 12
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "conclusion":"The selection in Occurence"
+                },
+                {
+                    "id": "occurrence2",
+                    "description": "Do you want to meet 'true love' at this age?",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "No, I want to develop my career.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SKILLS",
+                                        "value": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "Yes, I’m waiting for her/him.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 7
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "occurrence3",
+                    "description": "You will study at the university school you desire.",
+                    "answer": [
+                        {
+                            "id": "A",
+                            "description": "I studied enough.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "DECREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HEALTH",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_LOOK",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "DECREASE_HAPPINESS",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "B",
+                            "description": "I will start up.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 5
+                                    },
+                                    {
+                                        "type": "INCREASE_SKILLS",
+                                        "value": 7
+                                    },
+                                    {
+                                        "type": "INCREASE_HAPPINESS",
+                                        "value": 3
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "C",
+                            "description": "I will continue my educational journey.",
+                            "result": {
+                                "character": [
+                                    {
+                                        "type": "INCREASE_SMART",
+                                        "value": 10
+                                    },
+                                    {
+                                        "type": "INCREASE_SKILLS",
+                                        "value": 10
+                                    },
+                                    {
+                                        "type": "INCREASE_HEALTH",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

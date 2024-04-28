@@ -1,0 +1,565 @@
+{
+    "career": {
+        "condition": {
+            "age": 19,
+            "smart": 60,
+            "health": 50,
+            "happiness": 50,
+            "look": 50,
+            "skills": 50,
+            "bank_balance": 500
+        },
+        "stages": [
+            {
+                "id": "s1",
+                "condition": {
+                    "age": 19,
+                    "smart": 60,
+                    "health": 50,
+                    "happiness": 50,
+                    "look": 50,
+                    "skills": 50,
+                    "bank_balance": 500
+                },
+                "event": "University enrollment",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 2
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 300
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s2",
+                "condition": {
+                    "smart": 50,
+                    "health": 50,
+                    "skills": 50
+                },
+                "event": "Course Selection",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 2
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s3",
+                "condition": {
+                    "smart": 60,
+                    "skills": 60
+                },
+                "event": "Advanced Mathematics, Discrete Mathematics, Probability and Statistics, Physical Education, Philosophy",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 4
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 2
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_LOOK",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 300
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s4",
+                "condition": {
+                    "smart": 60,
+                    "skills": 60,
+                    "health": 60
+                },
+                "event": "C++, Java, Web Programming",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 3
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 2
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 2
+                        },
+                        {
+                            "type": "DECREASE_LOOK",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 200
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s5",
+                "condition": {
+                    "age": 20,
+                    "smart": 60,
+                    "skills": 60
+                },
+                "event": "Advanced Programming Concepts, Project Management, Object-Oriented Programming, Computer Networks, Data Structure & Algorithm",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 4
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_LOOK",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 300
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s6",
+                "condition": {
+                    "age": 21,
+                    "smart": 65,
+                    "skills": 65,
+                    "health": 60
+                },
+                "event": "IELTS, Operating Systems, Database, Software Engineering, Mobile Programming",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 6
+                        },
+                        {
+                            "type": "DECREASE_LOOK",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 300
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s7",
+                "condition": {
+                    "age": 22,
+                    "smart": 60,
+                    "skills": 65,
+                    "health": 60
+                },
+                "event": "IELTS test, System analysis and design",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 6
+                        },
+                        {
+                            "type": "DECREASE_LOOK",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 300
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s8",
+                "condition": {
+                    "age": 22,
+                    "smart": 60,
+                    "skills": 65,
+                    "health": 60
+                },
+                "event": "Internship Search, Interview Preparation, Soft Skills Development",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 3
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 2
+                        },
+                        {
+                            "type": "INCREASE_LOOK",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 2
+                        },
+                        {
+                            "type": "DECREASE_BANK_BALANCE",
+                            "value": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "s9",
+                "condition": {
+                    "age": 22,
+                    "smart": 60,
+                    "skills": 65,
+                    "health": 60,
+                    "look": 50
+                },
+                "event": "Graduated from university",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HEALTH",
+                            "value": 2
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_LOOK",
+                            "value": 5
+                        }
+                    ]
+                },
+                "certificate": "Diploma or Degree in Information Technology - Developers"
+            },
+            {
+                "id": "s10",
+                "condition": {
+                    "age": 23,
+                    "smart": 70,
+                    "skills": 60,
+                    "health": 50,
+                    "happiness": 50,
+                    "look": 50
+                },
+                "event": [
+                    {
+                        "id": "ev1",
+                        "description": "Job Search",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_LOOK",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ev2",
+                        "description": "Company interview",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_LOOK",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ev3",
+                        "description": "Internship",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "NO_CHANGE_LOOK",
+                                    "value": 0
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 3
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "s11",
+                "condition": {
+                    "age": 24,
+                    "smart": 70,
+                    "skills": 60,
+                    "health": 50,
+                    "look": 50,
+                    "happiness": 50
+                },
+                "event": [
+                    {
+                        "id": "ev1",
+                        "description": "Entry-level position",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_LOOK",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ev2",
+                        "description": "Official Employee",
+                        "condition": {
+                            "skills": 75
+                        },
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_LOOK",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "s12",
+                "condition": {
+                    "age": 25,
+                    "skills": 75,
+                    "health": 50,
+                    "smart": 60
+                },
+                "event": [
+                    {
+                        "id": "ev1",
+                        "description": "Career advancement",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 4
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 4
+                                },
+                                {
+                                    "type": "INCREASE_LOOK",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ev2",
+                        "description": "Further education",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 4
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 3
+                                },
+                                {
+                                    "type": "INCREASE_LOOK",
+                                    "value": 2
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 4
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1500
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

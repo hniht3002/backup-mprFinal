@@ -1,0 +1,3062 @@
+{
+    "RandomEvent_after_18_age": [
+        {
+            "min_age": 18,
+            "name": "Drama",
+            "description": "Dramas will occur in 2 types: Good or Bad if the player stays in a year for more than 5 minutes",
+            "Good_event": [
+                {
+                    "id": "good_event_1",
+                    "name": "GOOD",
+                    "description": "Today, you successfully launch your first mobile app at a tech conference.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Overjoyed! This is a significant milestone in my career.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Nervous, but relieved that it went smoothly.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_2",
+                    "name": "GOOD",
+                    "description": "You win a hackathon competition at your university, receiving recognition from both students and faculty members. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I can't believe we won! This is amazing!\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'm glad all our hard work paid off, but now I need some sleep.\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_3",
+                    "name": "GOOD",
+                    "description": "Today, you receive a job offer from a prestigious tech company. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Thrilled! This is the opportunity of a lifetime.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Unsure, as you were hoping for a different role or company.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_4",
+                    "name": "GOOD",
+                    "description": "You attend a coding bootcamp and win the 'Best Project' award. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Proud of your hard work paying off.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Surprised but grateful for the recognition.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_5",
+                    "name": "GOOD",
+                    "description": "Your team successfully launches a new software product, receiving positive feedback from users. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Accomplished and excited for the future.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Relieved, but also anxious about maintaining the product's success.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_6",
+                    "name": "GOOD",
+                    "description": "You attend a networking event and make valuable connections with industry professionals. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Energized and optimistic about future opportunities.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Exhausted from socializing, but glad for the connections made.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_7",
+                    "name": "GOOD",
+                    "description": "You're selected to speak at a tech conference about your expertise in machine learning. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Excited for the chance to share your knowledge with others.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Nervous about public speaking, but honored to be chosen.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_8",
+                    "name": "GOOD",
+                    "description": "You win a coding competition, earning recognition from industry leaders. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Elated, knowing your skills are validated by professionals.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Humble, grateful for the opportunity and support from your peers.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_9",
+                    "name": "GOOD",
+                    "description": "Your company sponsors your attendance at a specialized training workshop abroad. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Ecstatic for the chance to learn from experts in the field.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Anxious about being away from home for an extended period.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_10",
+                    "name": "GOOD",
+                    "description": "You're promoted to a senior developer position within your company. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Proud of your advancement and ready for the new challenges ahead.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 1500
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Concerned about the added responsibilities and expectations.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_11",
+                    "name": "GOOD",
+                    "description": "You successfully negotiate a higher salary during your performance review. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Empowered and valued by your employer.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Relieved but wary of the increased expectations that come with the raise.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_12",
+                    "name": "GOOD",
+                    "description": "You receive a grant to fund your research project in artificial intelligence. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Thrilled for the opportunity to pursue your passion project.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 3000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Overwhelmed by the responsibility of managing the grant and delivering results.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 1500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_13",
+                    "name": "GOOD",
+                    "description": "You're invited to present your project at a prestigious academic conference. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Excited for the chance to share your research with esteemed colleagues.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Nervous about presenting to such a knowledgeable audience.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_14",
+                    "name": "GOOD",
+                    "description": "You're invited to teach a coding workshop at a local community center. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Excited to share your knowledge and inspire others to pursue tech careers.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Nervous about public speaking and effectively conveying complex concepts.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_15",
+                    "name": "GOOD",
+                    "description": "Your company announces a new flexible work-from-home policy. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"This is fantastic news! I'll finally have more flexibility in my schedule.\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I prefer the structure of the office environment, but I guess it could be convenient sometimes.\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_16",
+                    "name": "GOOD",
+                    "description": "You're selected to attend a prestigious technology conference in a different country. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'm thrilled for the opportunity to network and learn from industry leaders!\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"Traveling for work sounds exhausting, but I suppose it could be interesting.\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_17",
+                    "name": "GOOD",
+                    "description": "You receive a bonus from your company for exceeding performance targets. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"This unexpected bonus is such a pleasant surprise!\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I was hoping for a bigger bonus, but I'll take what I can get.\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_18",
+                    "name": "GOOD",
+                    "description": "You're invited to join a project team working on cutting-edge technology in artificial intelligence. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'm excited to be part of such an innovative project!\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'm not sure if I'm qualified for this, but I'll give it my best shot.\"",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_19",
+                    "name": "GOOD",
+                    "description": "You hit the jackpot in the lottery!",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "You hit the jackpot in the lottery!",
+                            "result": [
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 10000000
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 50
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_20",
+                    "name": "GOOD",
+                    "description": "You're promoted at work with a salary increase!",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "You're promoted at work with a salary increase!",
+                            "result": [
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 5000
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 30
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_21",
+                    "name": "GOOD",
+                    "description": "You receive an invitation to a VIP movie premiere!",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "You receive an invitation to a VIP movie premiere!",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_22",
+                    "name": "GOOD",
+                    "description": "You find a lost wallet and return it to its owner!",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "You find a lost wallet and return it to its owner!",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_23",
+                    "name": "GOOD",
+                    "description": "You're invited to speak at a TEDx event!",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "You're invited to speak at a TEDx event!",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_24",
+                    "name": "GOOD",
+                    "description": "You receive a prestigious grant for your research project!",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "You receive a prestigious grant for your research project!",
+                            "result": [
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 5000
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 40
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "good_event_25",
+                    "name": "GOOD",
+                    "description": "You're invited to join a prestigious tech advisory board. How do you feel?",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 5,
+                            "max_minute": 6.59
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Honored and excited to contribute to important industry decisions.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Nervous about the time commitment and added pressure.",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Bad_event": [
+                {
+                    "id": "bad_event_1",
+                    "name": "BAD",
+                    "description": "While working late at the office, you spill coffee all over your laptop, damaging it beyond repair.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "Frustrated, but determined to find a solution. (Skills -10, Bank Balance -500$ for a new laptop)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "Devastated, feeling like everything is falling apart. (Skills -15, Happiness -10, Bank Balance -1000$ for a new laptop)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_2",
+                    "name": "BAD",
+                    "description": "While biking to work, you get hit by a car at an intersection.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I lived a good life; maybe it's time to rest.\" (END GAME)",
+                            "result": [
+                                {
+                                    "type": "END_GAME"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "You're rushed to the hospital for emergency treatment. (Happiness -30, Health -20, Bank Balance -1000$ for medical bills)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_3",
+                    "name": "BAD",
+                    "description": "While working late at the office, you accidentally delete an important file containing weeks' worth of project data.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I can't believe I did that! How am I going to explain this to my team?\" (Skills -10, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to stay calm and figure out if there's any way to recover the file.\" (Skills -5, Happiness -5)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_4",
+                    "name": "BAD",
+                    "description": "Your laptop crashes during a crucial presentation to potential investors, leaving you unable to showcase your product.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"This is a disaster! I've worked so hard on this presentation.\" (Skills -15, Happiness -20, Bank Balance -500$ for potential loss of investment)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'll have to think on my feet and find alternative ways to convey the value of our product.\" (Skills -10, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_5",
+                    "name": "BAD",
+                    "description": "A key team member unexpectedly quits, leaving your project understaffed and behind schedule.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I can't believe they left us in the lurch like this! How are we going to meet our deadlines now?\" (Skills -10, Happiness -15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"We'll need to redistribute tasks and work even harder to make up for their absence.\" (Skills -5, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_6",
+                    "name": "BAD",
+                    "description": "Your company announces layoffs due to financial difficulties, leaving you uncertain about your job security.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I can't sleep at night worrying about whether I'll still have a job tomorrow.\" (Happiness -20, Bank Balance -1000$ for potential loss of income)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to update my resume and start networking, just in case.\" (Happiness -10, Bank Balance -500$ for job search expenses)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_7",
+                    "name": "BAD",
+                    "description": "You discover that a competitor has launched a product very similar to yours, threatening your market share.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"This is a nightmare! How are we going to compete against them?\" (Skills -10, Happiness -15, Bank Balance -500$ for potential loss of revenue)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"We'll need to differentiate our product and double down on marketing efforts to stay competitive.\" (Skills -5, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_8",
+                    "name": "BAD",
+                    "description": "You're accused of plagiarism in a coding project, jeopardizing your academic or professional reputation.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I swear I didn't copy anyone's work! How am I going to prove my innocence?\" (Skills -10, Happiness -15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to gather evidence to refute these accusations and clear my name.\" (Skills -5, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_9",
+                    "name": "BAD",
+                    "description": "Your company experiences a security breach, compromising sensitive customer data and damaging trust in your brand.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"This is a PR nightmare! How are we going to recover from this?\" (Skills -10, Happiness -15, Bank Balance -1000$ for potential legal fees)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"We need to take immediate action to address the breach and rebuild trust with our customers.\" (Skills -5, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_10",
+                    "name": "BAD",
+                    "description": "Your project deadline is moved up unexpectedly, putting immense pressure on you and your team to deliver.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I feel like I'm drowning under all this pressure! How are we supposed to meet this deadline?\" (Skills -10, Happiness -15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"We'll need to work overtime and prioritize tasks to meet the new deadline.\" (Skills -5, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_11",
+                    "name": "BAD",
+                    "description": "Your company undergoes a merger, resulting in restructuring and layoffs across departments.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I can't believe I might lose my job because of this merger!\" (Happiness -20, Bank Balance -1000$ for potential loss of income)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to stay focused and demonstrate my value to ensure I'm not among those let go.\" (Happiness -10, Bank Balance -500$ for potential job search expenses)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_12",
+                    "name": "BAD",
+                    "description": "Your project budget is slashed, forcing you to cut corners and compromise on quality.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"This is ridiculous! How are we supposed to deliver a quality product with such limited resources?\" (Skills -10, Happiness -15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"We'll need to be creative and find innovative solutions to make the most of our reduced budget.\" (Skills -5, Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_13",
+                    "name": "BAD",
+                    "description": "Your parent is diagnosed with a serious illness and requires immediate hospitalization.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I feel helpless seeing my parent suffer like this. How will we cope with the medical expenses and emotional strain?\" (Happiness -20, Health -20, Bank Balance -2000$ for medical bills)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to stay strong for my parent and support them through this difficult time.\" (Happiness -15, Health -10, Bank Balance -1000$ for medical bills)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_14",
+                    "name": "BAD",
+                    "description": "Your significant other unexpectedly passes away, leaving you grief-stricken and struggling to cope with the loss.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I can't imagine my life without them. How will I go on?\" (Happiness -30, Health -20, Bank Balance -500$ for funeral expenses)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to lean on friends and family for support and take things one day at a time.\" (Happiness -25, Health -15, Bank Balance -300$ for funeral expenses)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 25
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 300
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_15",
+                    "name": "BAD",
+                    "description": "Your sibling is involved in a serious accident and is in critical condition in the hospital.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I feel numb with fear and worry. How will we manage if they don't make it?\" (Happiness -25, Health -20, Bank Balance -2000$ for medical bills)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 25
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to stay by their side and pray for their recovery, no matter what it takes.\" (Happiness -20, Health -15, Bank Balance -1000$ for medical bills)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_16",
+                    "name": "BAD",
+                    "description": "Your best friend confides in you about their struggle with mental illness and suicidal thoughts.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'm overwhelmed with concern for them. How can I help them through this dark time?\" (Happiness -20, Health -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to be there for them and encourage them to seek professional help and support.\" (Happiness -15, Health -5)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_17",
+                    "name": "BAD",
+                    "description": "Your child is diagnosed with a rare medical condition, requiring ongoing treatment and specialized care.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'm heartbroken to see my child in pain. How will we manage their treatment and ensure their well-being?\" (Happiness -30, Health -20, Bank Balance -3000$ for medical expenses)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 3000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to stay strong for my child and do everything in my power to ensure they receive the best care possible.\" (Happiness -25, Health -15, Bank Balance -2000$ for medical expenses)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 25
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_18",
+                    "name": "BAD",
+                    "description": "You're diagnosed with a terminal illness and given a short time to live, forcing you to confront your mortality.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I feel devastated knowing my time is limited. How will I say goodbye to my loved ones?\" (Happiness -50, Health -50)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 50
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to make the most of the time I have left and create lasting memories with those I care about.\" (Happiness -40, Health -40)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 40
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 40
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_19",
+                    "name": "BAD",
+                    "description": "You're faced with overwhelming debt and financial ruin, with no clear way out of the situation.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'm drowning in debt with no hope of escape. How will I ever recover from this?\" (Happiness -30, Bank Balance -5000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 5000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to explore all options, even if it means declaring bankruptcy, to get a fresh start.\" (Happiness -20, Bank Balance -3000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 3000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_20",
+                    "name": "BAD",
+                    "description": "You lose your job unexpectedly and struggle to find employment, leading to financial instability and stress.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I feel like I've failed and don't know how to provide for my family. How will we survive?\" (Happiness -30, Bank Balance -2000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to stay resilient and keep searching for opportunities, even if it means taking a job outside my field.\" (Happiness -20, Bank Balance -1000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_21",
+                    "name": "BAD",
+                    "description": "Your home is destroyed in a natural disaster, leaving you homeless and with nothing but the clothes on your back.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I've lost everything and don't know where to turn. How will I rebuild my life from scratch?\" (Happiness -40, Bank Balance -5000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 40
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 5000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to seek assistance from relief organizations and rely on the support of friends and family to get back on my feet.\" (Happiness -30, Bank Balance -3000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 3000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_22",
+                    "name": "BAD",
+                    "description": "You're involved in a car accident that results in permanent disability, drastically altering your way of life.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I can't accept that I'll never walk again. How will I cope with this new reality?\" (Happiness -50, Health -50)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 50
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I need to focus on rehabilitation and adapt to my new circumstances, finding ways to live a fulfilling life despite the challenges.\" (Happiness -40, Health -40)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 40
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 40
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_23",
+                    "name": "BAD",
+                    "description": "You're faced with a moral dilemma at work where you must choose between covering up unethical behavior to protect your job or blowing the whistle and risking your career.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'll stay silent to avoid repercussions and protect my livelihood.\" (Skills -20, Bank Balance +2000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'll report the misconduct, even if it means facing consequences.\" (Skills -10, Bank Balance -1000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"I can't bear the thought of being complicit in wrongdoing. I'll resign and expose everything.\" (Health -100)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_24",
+                    "name": "BAD",
+                    "description": "You discover that a close friend has been spreading malicious rumors about you behind your back, causing significant damage to your reputation",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'll confront them and try to salvage our friendship.\" (Happiness -20, Skills -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'll ignore the rumors and focus on proving them wrong through my actions.\" (Happiness -10, Skills -5)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"I can't handle the betrayal. I'll cut ties with them and isolate myself.\" (Health -100)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_25",
+                    "name": "BAD",
+                    "description": "You receive a tempting offer to participate in illegal activities for quick financial gain, knowing it could jeopardize your freedom and integrity.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'll take the risk for the money; nobody will ever find out.\" (Bank Balance +5000$, Happiness -30)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 5000
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'll decline the offer and report it to the authorities.\" (Bank Balance -2000$, Happiness -20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 2000
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"I can't compromise my values. I'll refuse the offer and cut ties with those involved.\" (Health -100)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_26",
+                    "name": "BAD",
+                    "description": "You're confronted with a life-altering decision regarding a loved one's medical treatment, with one option offering a slim chance of survival and the other prioritizing comfort and quality of life.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'll pursue aggressive treatment, hoping for a miracle.\" (Happiness -40, Health -30, Bank Balance -5000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 40
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 5000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'll prioritize comfort care and focus on making their remaining time as peaceful as possible.\" (Happiness -30, Health -20, Bank Balance -3000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 3000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"I can't bear to see them suffer anymore. I'll honor their wishes and let nature take its course.\" (Health -100)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_27",
+                    "name": "BAD",
+                    "description": "You're presented with an ultimatum by your significant other to choose between your career aspirations and your relationship, as they can no longer tolerate the sacrifices and long hours.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"I'll prioritize my career; they knew what they were signing up for.\" (Happiness -40, Skills -20, Bank Balance +2000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 40
+                                },
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "INCREASE_BANK_BALANCE",
+                                    "value": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"I'll prioritize my relationship and make compromises to ensure its survival.\" (Happiness -30, Skills -10, Bank Balance -1000$)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"I can't imagine life without them, but I can't abandon my dreams either. I'll choose neither.\" (Health -100)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_28",
+                    "name": "BAD",
+                    "description": "A student brings a weapon to school and opens fire, causing chaos and panic among the students and staff.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"Gunshots ring out in the hallway, and chaos erupts as students and teachers scramble for safety.\" (Health -50, Happiness -50)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 50
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You manage to barricade yourself in a classroom, but the fear and uncertainty are overwhelming.\" (Health -30, Happiness -30)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You confront the attacker, risking your own safety to protect your classmates.\" (Health -100 to end the game)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_29",
+                    "name": "BAD",
+                    "description": "A cyberbullying incident escalates, leading to devastating consequences for the victim's mental health.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You receive hateful messages and threats online, causing severe anxiety and depression.\" (Health -30, Happiness -40)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 40
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You confide in a trusted adult and seek support to deal with the cyberbullying.\" (Health -20, Happiness -20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"The cyberbullying intensifies to the point where you contemplate harming yourself.\" (Health -100 to end the game)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_30",
+                    "name": "BAD",
+                    "description": "A dangerous gang starts recruiting students at your school, leading to increased violence and crime on campus.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You witness gang members harassing students and feel powerless to stop them.\" (Health -30, Happiness -40)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 40
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You join forces with other students to stand up against the gang and protect your school.\" (Health -20, Happiness -20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You get caught in the crossfire of a gang-related altercation, suffering serious injuries.\" (Health -50, Happiness -50)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 50
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 50
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_31",
+                    "name": "BAD",
+                    "description": "A deadly epidemic sweeps through your community, causing widespread illness and death.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You watch helplessly as loved ones fall ill and hospitals become overwhelmed with patients.\" (Health -50, Happiness -50)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 50
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You volunteer at a makeshift clinic, risking exposure to the virus to help those in need.\" (Health -30, Happiness -30)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 30
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You contract the virus yourself and struggle to survive as your health deteriorates rapidly.\" (Health -100 to end the game)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_32",
+                    "name": "BAD",
+                    "description": "Human trafficking rings target vulnerable students in your school, leading to their abduction and exploitation.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You witness classmates disappearing one by one, realizing they've fallen victim to human traffickers.\" (Health -40, Happiness -50)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 40
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You work with authorities to raise awareness about human trafficking and protect your peers from exploitation.\" (Health -20, Happiness -30)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You become a target of human traffickers yourself, facing unimaginable horrors as you fight for your freedom.\" (Health -100 to end the game)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_33",
+                    "name": "BAD",
+                    "description": "A drug epidemic grips your school, with students falling prey to addiction and overdose.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You see classmates struggling with addiction, their lives spiraling out of control.\" (Health -40, Happiness -50)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 40
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You organize a drug awareness campaign to educate your peers about the dangers of substance abuse.\" (Health -20, Happiness -30)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 30
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You experiment with drugs yourself, quickly becoming addicted and alienating your friends and family.\" (Health -100 to end the game)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_34",
+                    "name": "BAD",
+                    "description": "You're invited to a destination wedding in a tropical paradise, requiring you to purchase airfare and accommodation.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You receive a beautifully designed wedding invitation, complete with details for a luxurious beachside ceremony.\" (Bank Balance -1000$, Happiness +20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 1000
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You excitedly RSVP to the wedding, knowing it will be a memorable celebration with friends and family.\" (Bank Balance -500$, Happiness +15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You decline the invitation due to financial constraints, feeling disappointed to miss out on the festivities.\" (Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_35",
+                    "name": "BAD",
+                    "description": "You decide to splurge on front-row tickets to see your favorite band perform live in concert.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You eagerly purchase VIP tickets to the concert, thrilled at the prospect of being up close to your musical idols.\" (Bank Balance -500$, Happiness +20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You buy standard tickets to the concert, still excited to see the band perform even from a distance.\" (Bank Balance -300$, Happiness +15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 300
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You opt not to attend the concert due to the high cost of tickets, feeling a pang of regret as you watch footage of the show online.\" (Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_36",
+                    "name": "BAD",
+                    "description": "You treat yourself to a day of shopping spree at your favorite boutique, indulging in new clothes, shoes, and accessories.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You splurge on designer outfits and accessories, feeling stylish and confident in your new wardrobe.\" (Bank Balance -500$, Happiness +20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 500
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You limit your purchases to a few key items, still satisfied with your modest shopping haul.\" (Bank Balance -300$, Happiness +15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 300
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You resist the temptation to shop and opt for window shopping instead, saving money for more essential expenses.\" (Happiness +5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_37",
+                    "name": "BAD",
+                    "description": "You decide to pamper yourself with a spa day, treating yourself to massages, facials, and other luxurious treatments.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You book a full day of spa treatments, feeling relaxed and rejuvenated after indulging in pampering sessions.\" (Bank Balance -300$, Happiness +20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 300
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You opt for a shorter spa package, still enjoying the soothing benefits of massage and skincare treatments.\" (Bank Balance -200$, Happiness +15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 200
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You skip the spa day altogether, choosing to save money and practice self-care at home instead.\" (Happiness +5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_38",
+                    "name": "BAD",
+                    "description": "You plan a movie marathon night with friends, stocking up on popcorn, snacks, and renting the latest blockbuster releases.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You spare no expense in creating the ultimate movie night experience, complete with gourmet snacks and a state-of-the-art home theater setup.\" (Bank Balance -100$, Happiness +20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 100
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You opt for a more budget-friendly movie night, choosing classic films and homemade snacks for a cozy evening in.\" (Bank Balance -50$, Happiness +15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_BANK_BALANCE",
+                                    "value": 50
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You decide to skip the movie night due to budget constraints, feeling a bit left out as your friends gather to watch films without you.\" (Happiness -10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_39",
+                    "name": "BAD",
+                    "description": "You're bored of studying for your upcoming exams and decide to procrastinate by binge-watching your favorite TV series.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You convince yourself that a short break won't hurt, but hours fly by as you get sucked into one episode after another.\" (Smart -10, Happiness +10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You struggle to focus on your studies, constantly checking your phone for notifications and distractions.\" (Smart -15, Happiness +5)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You resist the temptation to procrastinate and force yourself to get back to studying, knowing that your exams are just around the corner.\" (Smart +5, Happiness -5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_40",
+                    "name": "BAD",
+                    "description": "You find studying dull and uninteresting, so you decide to escape into the world of video games instead.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You lose track of time as you immerse yourself in the virtual world, forgetting all about your looming deadlines.\" (Smart -10, Happiness +15)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You use gaming as a reward system, promising yourself that you'll study after just one more level or match.\" (Smart -5, Happiness +10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You recognize the dangers of gaming addiction and force yourself to limit your gaming time, prioritizing your studies.\" (Smart +5, Happiness -5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_41",
+                    "name": "BAD",
+                    "description": "You're feeling unmotivated to study, so you spend hours scrolling through social media feeds to pass the time.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You fall into the endless scroll, mindlessly consuming content and neglecting your responsibilities.\" (Smart -10, Happiness +10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You find temporary relief from boredom on social media, but you can't shake the guilt of wasting valuable study time.\" (Smart -5, Happiness +5)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You set strict time limits for social media use and implement study breaks to maintain productivity.\" (Smart +5, Happiness -5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_42",
+                    "name": "BAD",
+                    "description": "You're struggling to concentrate on your studies, so you decide to take a break and go out with friends instead.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You give in to peer pressure and join your friends for a night of fun, pushing thoughts of exams and assignments to the back of your mind.\" (Smart -10, Happiness +20)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You strike a balance between socializing and studying, making plans with friends only after completing your study goals for the day.\" (Smart -5, Happiness +10)",
+                            "result": [
+                                {
+                                    "type": "DECREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You prioritize your academic responsibilities and decline your friends' invitations, knowing that your education comes first.\" (Smart +5, Happiness -5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "bad_event_43",
+                    "name": "BAD",
+                    "description": "You're bored with your textbooks and lectures, so you decide to explore alternative methods of learning, such as educational YouTube channels or podcasts.",
+                    "condition": {
+                        "time_frame": {
+                            "min_minute": 8,
+                            "max_minute": 12
+                        }
+                    },
+                    "options": [
+                        {
+                            "id": "option_A",
+                            "description": "\"You discover fascinating content that captures your interest and reignites your passion for learning, but you struggle to stay focused on your original study material.\" (Smart +10, Happiness +10)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_B",
+                            "description": "\"You find a balance between traditional studying and supplemental learning, incorporating new resources into your study routine to enhance comprehension and retention.\" (Smart +5, Happiness +5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "option_C",
+                            "description": "\"You recognize the importance of sticking to your study plan and resist the temptation to stray too far from your textbooks, using alternative resources as occasional supplements rather than replacements.\" (Smart +5, Happiness -5)",
+                            "result": [
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
